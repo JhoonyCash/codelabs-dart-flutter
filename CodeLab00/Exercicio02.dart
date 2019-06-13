@@ -45,15 +45,14 @@ Shape shapeFactory(String type){
 
 void main(){
 
-	final circle0 = Circle(2);
-	final square0 = Square(2);
+	//final circle = Circle(2);
+	//final square = Square(2);
 
-	final circle1 = shapeFactory('circle');
-	final square1 = shapeFactory('square');
+	//final circle = shapeFactory('circle');
+	//final square = shapeFactory('square');
 	
-	final circle1 = Shape('circle');
-	final square1 = Shape('square');
-	
-  print(circle.area);
+	final circle = Shape('circle');
+	final square = Shape('square');
+	print(circle.area);
 	print(square.area);
 }
