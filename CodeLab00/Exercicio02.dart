@@ -35,7 +35,11 @@ class CircleMock implements Circle {
 }
 
 
+<<<<<<< HEAD
 Shape shapeFactory(String type){
+=======
+ Shape shapeFactory(String type){
+>>>>>>> 634d6cd3687b55a05a887298509cee700ff3e671
  	if (type == 'circle') return Circle(2);
  	if (type == 'square') return Square(2);
  	throw 'Forma invalida! $type';
@@ -47,6 +51,7 @@ void main(){
 
 	//final circle = Circle(2);
 	//final square = Square(2);
+
 
 	//final circle = shapeFactory('circle');
 	//final square = shapeFactory('square');
