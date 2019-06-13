@@ -30,21 +30,19 @@ class CircleMock implements Circle {
 }
 
 
-// Shape shapeFactory(String type){
-// 	if (type == 'circle') return Circle(2);
-// 	if (type == 'square') return Square(2);
-// 	throw 'Forma invalida! $type';
-// }
+ Shape shapeFactory(String type){
+ 	if (type == 'circle') return Circle(2);
+ 	if (type == 'square') return Square(2);
+ 	throw 'Forma invalida! $type';
+ }
 
 
 
 void main(){
 
-	//Instanciando normalmente os objetos de 'circle' e 'square' 
 	//final circle = Circle(2);
 	//final square = Square(2);
 
-	//Utilizando uma função de alto nivel para o Instanciamento
 	//final circle = shapeFactory('circle');
 	//final square = shapeFactory('square');
 	
